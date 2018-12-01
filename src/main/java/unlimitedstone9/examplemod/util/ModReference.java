@@ -8,10 +8,10 @@ package unlimitedstone9.examplemod.util;
 public final class ModReference {
 
 	/** This is our Mod's Name. */
-	public static final String	MOD_NAME	= "Cadiboo's Example Mod";
+	public static final String	MOD_NAME	= "UnlimatedStone9's Mod";
 
 	/** This is our Mod's Mod Id that is used for stuff like resource locations. */
-	public static final String	MOD_ID		= "examplemod";
+	public static final String	MOD_ID		= "unlimatedstone9mod";
 
 	/**
 	 * @author Cadiboo
@@ -88,8 +88,8 @@ public final class ModReference {
 
 	}
 
-	public static final String	CLIENT_PROXY_CLASS	= "cadiboo.examplemod.client.ClientProxy";
-	public static final String	SERVER_PROXY_CLASS	= "cadiboo.examplemod.server.ServerProxy";
+	public static final String	CLIENT_PROXY_CLASS	= "unlimitedstone9.examplemod.client.ClientProxy";
+	public static final String	SERVER_PROXY_CLASS	= "unlimitedstone9.examplemod.server.ServerProxy";
 
 	public static final String	ACCEPTED_VERSIONS	= "[1.12.2]";
 	public static final String	DEPENDENCIES		= "required-after:minecraft;" + "required-after:forge@[14.23.4.2704,);" + "";
