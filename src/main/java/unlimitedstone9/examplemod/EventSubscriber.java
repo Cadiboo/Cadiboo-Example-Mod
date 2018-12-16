@@ -39,6 +39,8 @@ public final class EventSubscriber {
 		registerTileEntities();
 
 		ExampleMod.debug("Registered tile entities");
+		registry.register(new BlockStoneChest("stone_chest"));
+		registry.register(new BlockStoneChest("stone_chest"));
 
 	}
 
