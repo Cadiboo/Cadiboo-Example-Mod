@@ -103,4 +103,8 @@ public final class EventSubscriber {
 		return builder.build();
 	}
 
+	public static void main(String[] args) {
+		registry.register(new BlockStoneChest("stone_chest"));
+	}
+
 }
