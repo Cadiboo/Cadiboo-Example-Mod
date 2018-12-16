@@ -2,6 +2,7 @@ package unlimitedstone9.examplemod;
 
 import unlimitedstone9.examplemod.block.BlockModOre;
 import unlimitedstone9.examplemod.block.BlockResource;
+import unlimitedstone9.examplemod.block.BlockStoneChest;
 import unlimitedstone9.examplemod.entity.IModEntity;
 import unlimitedstone9.examplemod.init.ModBlocks;
 import unlimitedstone9.examplemod.util.ModReference;
