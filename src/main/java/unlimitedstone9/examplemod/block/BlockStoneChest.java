@@ -12,4 +12,6 @@ public class BlockStoneChest extends Block {
 		// TODO Auto-generated constructor stub
 	}
 
+	onBlockActivated(World, BlockPos, IBlockState, EntityPlayer, EnumHand, EnumFacing, float, float, float)
+
 }
