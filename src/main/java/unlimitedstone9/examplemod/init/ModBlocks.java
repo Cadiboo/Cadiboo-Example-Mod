@@ -2,6 +2,7 @@ package unlimitedstone9.examplemod.init;
 
 import unlimitedstone9.examplemod.block.BlockModOre;
 import unlimitedstone9.examplemod.block.BlockResource;
+import unlimitedstone9.examplemod.block.BlockStoneChest;
 import unlimitedstone9.examplemod.util.ModReference;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 
