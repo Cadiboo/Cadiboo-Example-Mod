@@ -12,6 +12,11 @@ public class BlockStoneChest extends Block {
 		// TODO Auto-generated constructor stub
 	}
 
-	onBlockActivated(World, BlockPos, IBlockState, EntityPlayer, EnumHand, EnumFacing, float, float, float)
-
+	@Override
+    public boolean onBlockActivated(final World world, final BlockPos pos, final IBlockState state, final EntityPlayer player, final EnumHand hand, final EnumFacing facing, final float hitX, final float hitY, final float hitZ) {
+        if (world.isRemote) {
+            return true;
+        }
+        return true;
+    }
 }
