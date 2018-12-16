@@ -18,6 +18,6 @@ public class ModBlocks {
 
 	public static final BlockModOre		EXAMPLE_ORE		= null;
 
-	public static final BlockStoneChest        STONE_CHEST        = null;(edited)
+	public static final BlockStoneChest        STONE_CHEST        = null;
 
 }
