@@ -31,7 +31,7 @@ public final class EventSubscriber {
 		final IForgeRegistry<Block> registry = event.getRegistry();
 
 		registry.register(new BlockResource("example_block"));
-
+		registry.register(new BlockStoneChest("stone_chest"));
 		registry.register(new BlockModOre("example_ore"));
 
 		ExampleMod.info("Registered blocks");
@@ -105,8 +105,6 @@ public final class EventSubscriber {
 		return builder.build();
 	}
 
-	public static void main(String[] args) {
-		registry.register(new BlockStoneChest("stone_chest"));
 	}
 
 }
