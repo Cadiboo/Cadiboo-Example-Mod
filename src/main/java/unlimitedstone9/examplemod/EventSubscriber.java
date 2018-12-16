@@ -104,7 +104,4 @@ public final class EventSubscriber {
 
 		return builder.build();
 	}
-
-	}
-
 }
