@@ -67,6 +67,7 @@ public final class EventSubscriber {
 		registry.register(ModUtil.setRegistryNames(new ItemBlock(ModBlocks.EXAMPLE_BLOCK), ModBlocks.EXAMPLE_BLOCK.getRegistryName()));
 
 		registry.register(ModUtil.setRegistryNames(new ItemBlock(ModBlocks.EXAMPLE_ORE), ModBlocks.EXAMPLE_ORE.getRegistryName()));
+		registry.register(ModUtil.setRegistryNames(new ItemBlock(ModBlocks.STONE_CHEST), ModBlocks.STONE_CHEST.getRegistryName()));
 
 		// items
 

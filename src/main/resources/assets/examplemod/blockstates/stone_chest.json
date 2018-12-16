@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": [
+            {"model": "examplemod:stone_chest"}
+        ]
+    }
+}

@@ -14,7 +14,7 @@ public final class ModReference {
 	public static final String	MOD_ID		= "unlimatedstone9mod";
 
 	/**
-	 * @author Cadiboo
+	 * @author UnlimatedStone9
 	 * @see <a href= "https://mcforge.readthedocs.io/en/latest/conventions/versioning/">Forge Versioning Docs</a>
 	 */
 	public static final class Version {
